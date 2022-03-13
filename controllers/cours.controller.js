@@ -14,7 +14,7 @@ exports.addNewCours =async (req, res) => {
     } catch (error) {
     }
     }
-
+// affiche new cours
     exports.afficheCours =  async (req,res)=>{
         try {
            const Affichage =  await coursSchema.find();
@@ -24,6 +24,7 @@ exports.addNewCours =async (req, res) => {
         }
     }
 
+// delete cour
     exports.deleteCours =  async (req,res)=>{
         const {ID} = req.params
         try {

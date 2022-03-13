@@ -35,7 +35,7 @@ function Agencements() {
 </div>
             <div class="col-imgs12 m6" >
                 <div class="image-wrapper m-fit-content">
-                    <img src="https://www.inspyraya.com/photos/579x386/adobestock_184405072.jpeg" width="660" height="660" alt="déco salon" class="responsive-img" style={{width:'600px', height:'400px'}}/>
+                    <img src="https://www.inspyraya.com/photos/579x386/adobestock_184405072.jpeg" width="700" height="660" alt="déco salon" class="responsive-img" style={{width:'668px', height:'600px'}}/>
                 </div>
             </div>
         </div>

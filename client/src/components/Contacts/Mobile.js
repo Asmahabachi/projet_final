@@ -12,7 +12,7 @@ function Mobile() {
                     <div class="flex-row m-justify-content-center l-justify-content-flex-end m-align-items-center center-align">
                                                     <div class="col">
                                 <div class="flow-text bold">
-                                    <a href="tel:+21655696949" class="tel">55 69 69 49 </a>
+                                    {/* <a href="tel:+21655696949" class="tel">55 69 69 49 </a> */}
                                 </div>
                             </div>
             <ButtonToolbar aria-label="Toolbar with button groups">

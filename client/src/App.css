@@ -28,8 +28,9 @@
   color: #fff;
 }
 .logoarch{
-  border-radius: 100px;
-  padding:1rem;
+  border-radius: 20px 40px;
+  padding:0rem;
+
 }
 .navbar-brand{
   display: flex;
@@ -51,7 +52,7 @@ flex-direction: row;
 /* card css */
 .cards-list {
     display: flex;
-    flex-wrap: wrap; 
+    /* flex-wrap: wrap;  */
     background-color: black;
     color: #fff;
     padding: 3rem;
@@ -98,22 +99,31 @@ flex-direction: row;
 
 @media all and (max-width: 500px) {
   .card-list {
-    /* On small screens, we are no longer using row direction but column */ 
+    /* On small screens, we are no longer using row direction but column  */
     flex-direction: column;
     margin: 113px 2px;
   }
 }
-.profile{display: flex; flex-direction: row;}
+.profile{
+  display: flex; 
+  flex-direction: row;
+  background:url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.ehess.fr%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Ftaille_image_contenu__870%2Fpublic%2Fevenements%2Fimages%2Fdesign-.jpg%3Fitok%3DCxl041fI&imgrefurl=https%3A%2F%2Fwww.ehess.fr%2Ffr%2Fjourn%25C3%25A9es-d%25C3%25A9tude%2Fquel-visage-pour-th%25C3%25A9orie-design&tbnid=QBfOPDBwCqi18M&vet=12ahUKEwihos2kuMH2AhUJaRoKHUhLBYcQMygUegUIARD4AQ..i&docid=zw17q3cQSCmKnM&w=848&h=430&q=image%20design&ved=2ahUKEwihos2kuMH2AhUJaRoKHUhLBYcQMygUegUIARD4AQ");
+}
 .addcoaching{ display: flex;
   justify-content: center;
   flex-direction: column;
   align-content: center;
   align-items: center;
+  margin-top: 40px!important;
   padding:2rem;
   margin:auto;
-border-style: solid;}
+border-style: solid;
+/* background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%); */
+
+}
 .figure{display: flex;
 align-items: center}
+
   .profilCard{
     color:white;
     background: #000000;  /* fallback for old browsers */
@@ -127,7 +137,7 @@ align-items: center}
    
     background: #f9f6f6;
     bottom: 100px;
-    width: 1684px;
+    width: 100%;
     height: 110px;
     display: flex;
     align-items: center;
@@ -144,18 +154,18 @@ align-items: center}
 }
 
 .fold button {
-  background: #b4a6d8;
+  background: #010003;
   border: 0;
 }
 .fold button:hover  {
-  background: #4412c4;
+  background:black;
   border: 0;
   transform: translate(20px,10px);
-  box-shadow: 10px 10px 8px #140e6d;
+  box-shadow: 10px 10px 8px #770271;
 }
 .fold a {
 
-  color: #b4a6d8;
+  /* color: #b4a6d8; */
   text-decoration: none;
   margin: 0 20px;
   transform: translate(60px,40px);
@@ -211,12 +221,15 @@ align-items: center}
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  margin-top: -80px;
 
 }
 .intro h2{
     font-size: 2rem;
     padding: 1rem;
-}
+    margin: 20px;
+    }
+   
 i.fa.fa-chevron-circle-right {
   width: 40%;
   font-size: 40px;
@@ -225,7 +238,7 @@ i.fa.fa-chevron-circle-right {
 }
 .flex-row{
   display: flex;
-  margin: 3rem;
+  /* margin: 3rem; */
   /* padding: 3rem; */
   font-weight: bold;
   
@@ -240,6 +253,8 @@ i.fa.fa-chevron-circle-right {
   background-color: black;
   color: white;
   padding: 1rem;
+  font-size: xx-small;
+  margin-top: 1rem;
 }
 
 .flex-row .col .title-2.p{
@@ -251,13 +266,15 @@ i.fa.fa-chevron-circle-right {
   
 }
 .col{
-  display: flex;
-    /* flex-direction: row;
-    flex-wrap: nowrap; */
-    align-items: center;
+  display: flex; 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    align-items: center; 
     align-content: center;
-    flex-direction: row-reverse; 
+    /* flex-direction: row-reverse;   */
+margin-top: -85px;
 }
+
 .col-paragh{
     padding: 0rem;
     display: flex;
@@ -346,8 +363,9 @@ body, button, input, select, optgroup, textarea {
   align-items:center;
 padding:2rem;
 background-color:white;
-}
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqvuQvXIi_Anf0YC6a5u-vbT_7tZDBJee1tw&usqp=CAU");
 
+}
 
 /* .col img  {
   width: 789px;
@@ -457,9 +475,8 @@ background-color:white;
   color: #fff;
 }
 .footer-logo {
-  max-width: 155px;
-  padding-bottom: 32px;
-  border-radius: 66%;
+  margin-bottom: 20px;
+  border-radius: 20px 40px;
 }
 .footer-social {
   padding-top: 9px;
@@ -738,7 +755,7 @@ a{
   text-decoration: none;
 }
 
-profilimg{ 
+.profilimg{ 
   border-radius: 100;
   }
 
@@ -777,11 +794,11 @@ display:flex;
 
 
 .font-color{
-  color: white !important;
+  color: whitesmoke !important;
 }
 
 /* carossel bloc img */
-      .carousel.slide{height:700px; width:1000px;}
+      /* .carousel.slide{height:700px; width:1000px;} */
       .carousel-inner{height:700px; width:1000px;}
       .carousel-item{height:700px; width:1000px;}
 
@@ -791,6 +808,7 @@ display:flex;
         justify-content: space-around;
         align-items: center;
         background-color: black;
+        width: 1516px;
       }
 
 
@@ -815,13 +833,16 @@ display:flex;
 }
 
 
-/* @media (min-width: 1200px) */
-.h1, h1 {
+@media (min-width: 1200px) {
+  .h1, h1 {
     font-size: 3.5rem;
     margin: 0rem;
     background-color: #f9f6f6;
     padding: 2rem;
 }
+
+}
+
 
 
 
@@ -907,3 +928,155 @@ margin-left: 220px !important;
 
 }
  */
+
+/*  ++CSS Aziz */
+
+
+ .carousel.slide {
+  height: 700px;
+  width: 100%;
+}
+
+
+.mb-xl-0 {
+  font-family: 'Kalam';
+  font-size: smaller;
+  margin-bottom: 0!important;
+}
+
+
+.contactButton {
+  text-decoration: none;
+  color: #d8adad;
+}
+
+
+.displayingContactCardPhoto { 
+  width: 100%;
+}
+
+
+#collasible-nav-dropdown {
+  color: whitesmoke ! important;
+}
+
+.cardMap{ 
+  display: flex  !important;
+  flex-direction: row !important;
+}
+
+/*  SIGNUP CSS  */
+.get-in-touch {
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+
+}
+/* .get-in-touch .title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3.2em;
+  line-height: 48px;
+  padding-bottom: 48px;
+  color: #5543ca;
+    background: #5543ca;
+    background: -moz-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+    background: -webkit-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+    background: linear-gradient(to right,#f4524d  0%,#5543ca  100%) !important;
+    -webkit-background-clip : text !important;
+    -webkit-text-fill-color: transparent !important;
+} */
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #5543ca;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+         transform: translateY(-24px);
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 29px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #5543ca;
+  cursor: text;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, 
+  -webkit-transform .2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+  background-image: linear-gradient(125deg,#a72879,#064497);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width:200px;
+  cursor: pointer;
+}
+
+
+
+
+
+.signup-redirect{
+margin-top: -110px !important; 
+
+font-weight: 500;
+line-height: 1.2;
+position: absolute;
+margin-left: 220px !important; 
+
+}
+
+
+
+/*   Devis css   */
+
+.signup {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 66px;
+  margin-top: 53px;
+  align-content: center;
+ border: none ;
+}
+.image-wrapper{
+  width: 666px;
+  height: 573px;
+ margin-top:40px
+}
+
+
+.d-block{
+  height: 701px;
+    width: 1483px;
+
+}

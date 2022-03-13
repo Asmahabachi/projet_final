@@ -9,8 +9,10 @@ import {Card, ListGroup, ListGroupItem} from 'react-bootstrap'
 function ListePersonnes() {
 
 const dispatch=useDispatch()
-
-    dispatch(afficheDevis())
+ useEffect(()=>{
+  dispatch(afficheDevis())
+ },[])
+    
 
 const pers = useSelector((state) => state.UserReducer.afficheCours)
 

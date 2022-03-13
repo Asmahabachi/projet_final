@@ -1,11 +1,12 @@
 const devisShcema = require("../models/DevisModel")
-const bcrypt = require('bcrypt');
-const jwt = require('jsonwebtoken'); 
+// const bcrypt = require('bcrypt');
+// const jwt = require('jsonwebtoken'); 
+
 
 exports.addDevis = async (req, res) => {
     const {nom,prenon,telephone,password,email,adresse,superficie,motif} = req.body
     
-
+            console.log(req.body)
         try {
             const addDevis = new devisShcema(req.body)
             await addDevis.save()
