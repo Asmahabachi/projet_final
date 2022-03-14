@@ -130,7 +130,7 @@ function Contacts() {
 </div>
 
 <div className="form-field col-lg-12">
-<input onClick ={Submit}  className="submit-btn"  defaultValue="Submit" />
+<Link to={'/'} >  <input  onClick ={Submit} className="submit-btn"  defaultValue="Submit" /></Link>
 </div>
 </form>
 </section>

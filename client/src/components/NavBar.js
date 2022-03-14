@@ -37,7 +37,7 @@ const logout = () =>{
     <NavDropdown title={`Prestations`} id="collasible-nav-dropdown">
         <NavDropdown.Item as={Link} to='/Agencement & de locaux professionnels' >Agencement de locaux professionnels</NavDropdown.Item>
         <NavDropdown.Item as={Link} to='/Décorattion & aménagement pour particulier' >Décorattion & aménagement pour particulier</NavDropdown.Item>
-        <NavDropdown.Item as={Link} to='/Information' >Information</NavDropdown.Item>
+        {/* <NavDropdown.Item as={Link} to='/Information' >Information</NavDropdown.Item> */}
         
       {/* <NavDropdown.Divider /> */}
       {/* <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}

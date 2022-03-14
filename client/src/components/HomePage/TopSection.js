@@ -14,7 +14,7 @@ function TopSection() {
 <Carousel >
   <Carousel.Item>
     <img
-      className="d-block w-100"style={{width:"600px"}}
+      className="d-block "
       src={img16}
       alt="First slide"
     />
@@ -25,7 +25,7 @@ function TopSection() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block "
       src={img22}
       alt="Second slide"
     />
@@ -37,7 +37,7 @@ function TopSection() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block "
       src={img14}
       alt="Third slide"
     />
